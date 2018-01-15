@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ccy.dao.SysUserDao" >
+	<resultMap id="BaseResultMap" type="com.ccy.model.SysUser" >
+		<result property="userId" column="USER_ID" />
+		<result property="regId" column="REG_ID" />
+		<result property="userCode" column="USER_CODE" />
+		<result property="userLoginname" column="USER_LOGINNAME" />
+		<result property="userName" column="USER_NAME" />
+		<result property="userPassword" column="USER_PASSWORD" />
+		<result property="userPhone" column="USER_PHONE" />
+		<result property="userEmail" column="USER_EMAIL" />
+		<result property="userNote" column="USER_NOTE" />
+		<result property="userState" column="USER_STATE" />
+		<result property="createTime" column="CREATE_TIME" />
+		<result property="modifyTime" column="MODIFY_TIME" />
+		<result property="isValid" column="IS_VALID" />
+		<result property="userClass" column="USER_CLASS" />
+	</resultMap>
+	<sql id="columns">
+		USER_ID, REG_ID, USER_CODE, USER_LOGINNAME, USER_NAME, USER_PASSWORD, USER_PHONE, USER_EMAIL, USER_NOTE, USER_STATE, CREATE_TIME, MODIFY_TIME, IS_VALID, USER_CLASS
+	</sql>
+
+	<select id="show" resultMap="BaseResultMap" >
+		SELECT <include refid="columns" />	FROM SYS_USER limit 10
+	</select>
+</mapper>

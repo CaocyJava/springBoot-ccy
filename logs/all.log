@@ -1,0 +1,62 @@
+2017-12-11 15:04:34,414  INFO StartController:48 - Starting StartController on SC-201705121442 with PID 10572 (D:\IntelliJworkspace\springBoot\target\classes started by Administrator in D:\IntelliJworkspace\springBoot)
+2017-12-11 15:04:34,417  INFO StartController:637 - No active profile set, falling back to default profiles: default
+2017-12-11 15:04:34,537  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@221e1fde: startup date [Mon Dec 11 15:04:34 CST 2017]; root of context hierarchy
+2017-12-11 15:04:34,787  INFO Version:30 - HV000001: Hibernate Validator 5.3.4.Final
+2017-12-11 15:04:35,496  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-11 15:04:35,576  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-11 15:04:35,597  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65fdcc8e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-11 15:04:35,879  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-12-11 15:04:35,958  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1425 ms
+2017-12-11 15:04:36,065  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-11 15:04:36,070  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-11 15:04:36,071  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-11 15:04:36,071  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-11 15:04:36,072  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-11 15:04:36,619  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@221e1fde: startup date [Mon Dec 11 15:04:34 CST 2017]; root of context hierarchy
+2017-12-11 15:04:36,666  INFO RequestMappingHandlerMapping:543 - Mapped "{[/show],methods=[GET]}" onto public java.util.List<com.ccy.model.SysUser> com.ccy.controller.SysUserController.show()
+2017-12-11 15:04:36,669  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-11 15:04:36,670  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-11 15:04:36,692  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-11 15:04:36,692  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-11 15:04:36,719  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-11 15:04:36,879  INFO OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2017-12-11 15:04:36,915  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-12-11 15:04:36,957  INFO TomcatEmbeddedServletContainer:192 - Tomcat started on port(s): 8080 (http)
+2017-12-11 15:04:36,961  INFO StartController:57 - Started StartController in 2.845 seconds (JVM running for 3.735)
+2017-12-11 15:04:47,595  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-11 15:04:47,610  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2017-12-11 15:04:47,625  INFO AccessTokenVerifyInterceptor:22 - 进入了拦截器...
+2017-12-11 15:04:48,377 DEBUG show:54 - ==>  Preparing: SELECT USER_ID, REG_ID, USER_CODE, USER_LOGINNAME, USER_NAME, USER_PASSWORD, USER_PHONE, USER_EMAIL, USER_NOTE, USER_STATE, CREATE_TIME, MODIFY_TIME, IS_VALID, USER_CLASS FROM SYS_USER limit 10 
+2017-12-11 15:04:48,418 DEBUG show:54 - ==> Parameters: 
+2017-12-11 15:04:48,443 DEBUG show:54 - <==      Total: 10
+2017-12-11 15:05:27,863  INFO StartController:48 - Starting StartController on SC-201705121442 with PID 6556 (D:\IntelliJworkspace\springBoot\target\classes started by Administrator in D:\IntelliJworkspace\springBoot)
+2017-12-11 15:05:27,865  INFO StartController:637 - No active profile set, falling back to default profiles: default
+2017-12-11 15:05:27,933  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@83903ab: startup date [Mon Dec 11 15:05:27 CST 2017]; root of context hierarchy
+2017-12-11 15:05:28,313  INFO Version:30 - HV000001: Hibernate Validator 5.3.4.Final
+2017-12-11 15:05:28,959  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-11 15:05:29,001  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-11 15:05:29,021  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ad113cfe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-11 15:05:29,225  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-12-11 15:05:29,289  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1362 ms
+2017-12-11 15:05:29,381  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-11 15:05:29,386  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-11 15:05:29,386  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-11 15:05:29,386  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-11 15:05:29,386  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-11 15:05:29,800  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@83903ab: startup date [Mon Dec 11 15:05:27 CST 2017]; root of context hierarchy
+2017-12-11 15:05:29,843  INFO RequestMappingHandlerMapping:543 - Mapped "{[/show],methods=[GET]}" onto public java.util.List<com.ccy.model.SysUser> com.ccy.controller.SysUserController.show()
+2017-12-11 15:05:29,847  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-11 15:05:29,847  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-11 15:05:29,868  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-11 15:05:29,869  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-11 15:05:29,892  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-11 15:05:30,028  INFO OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2017-12-11 15:05:30,063  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-12-11 15:05:30,102  INFO TomcatEmbeddedServletContainer:192 - Tomcat started on port(s): 8080 (http)
+2017-12-11 15:05:30,105  INFO StartController:57 - Started StartController in 2.407 seconds (JVM running for 3.092)
+2017-12-11 15:05:34,574  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-11 15:05:34,590  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2017-12-11 15:05:34,605  INFO AccessTokenVerifyInterceptor:22 - 进入了拦截器...
+2017-12-11 15:05:35,198 DEBUG show:54 - ==>  Preparing: SELECT USER_ID, REG_ID, USER_CODE, USER_LOGINNAME, USER_NAME, USER_PASSWORD, USER_PHONE, USER_EMAIL, USER_NOTE, USER_STATE, CREATE_TIME, MODIFY_TIME, IS_VALID, USER_CLASS FROM SYS_USER limit 10 
+2017-12-11 15:05:35,216 DEBUG show:54 - ==> Parameters: 
+2017-12-11 15:05:35,237 DEBUG show:54 - <==      Total: 10

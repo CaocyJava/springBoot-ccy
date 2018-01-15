@@ -1,0 +1,75 @@
+2017-12-05 14:30:23,491 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field sysUserDao in com.ccy.service.impl.SysUserServiceImpl required a bean of type 'com.ccy.dao.SysUserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ccy.dao.SysUserDao' in your configuration.
+
+2017-12-05 14:32:47,650 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field sysUserDao in com.ccy.service.impl.SysUserServiceImpl required a bean of type 'com.ccy.dao.SysUserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ccy.dao.SysUserDao' in your configuration.
+
+2017-12-05 14:33:09,198 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field sysUserDao in com.ccy.service.impl.SysUserServiceImpl required a bean of type 'com.ccy.dao.SysUserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ccy.dao.SysUserDao' in your configuration.
+
+2017-12-05 14:37:40,605 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field sysUserDao in com.ccy.service.impl.SysUserServiceImpl required a bean of type 'com.ccy.dao.SysUserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ccy.dao.SysUserDao' in your configuration.
+
+2017-12-05 14:37:51,338 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field sysUserDao in com.ccy.service.impl.SysUserServiceImpl required a bean of type 'com.ccy.dao.SysUserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ccy.dao.SysUserDao' in your configuration.
+
